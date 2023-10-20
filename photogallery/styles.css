@@ -1,0 +1,24 @@
+.big img{
+    width: 50vw;
+    height: 40vh;
+    border: 2px solid white;
+}
+.big{
+    display: flex;
+    justify-content: center;
+}
+
+.small{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.small img{
+    width: 30vh;
+    margin: 2px;
+    margin-top: 20px;
+}
+body{
+    background-color: black;
+}
