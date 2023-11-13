@@ -1,0 +1,45 @@
+body{
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timer{
+    color: yellow;
+    font-size: 100px;
+}
+
+.container{
+    background-color: aliceblue;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote-display{
+    font-size: 30px;
+    padding: 20px;
+}
+.quote-input{
+    height: 10rem;
+    width: 80%;
+    margin-bottom: 10px;
+    outline: none;
+    resize: none;
+    padding: 0.5rem 1rem;
+}
+.quote-input:focus{
+    border: 3px solid black;
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+}
