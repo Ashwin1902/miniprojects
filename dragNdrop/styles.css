@@ -1,0 +1,17 @@
+.box{
+    background-color: black;
+    color: white;
+    height: auto;
+    margin-top: 1rem;
+    font-size: 40px;
+    padding: 1rem;
+    text-align: center;
+    cursor: move;
+}
+.container{
+    background-color: white;
+}
+
+.hidden{
+    background-color: white;
+}
