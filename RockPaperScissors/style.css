@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.score{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.game{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+.choose .btn{
+    font-size: 1rem;
+}
+.btn{
+    height: auto;
+    width: auto;
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 90px;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn2{
+    background-color: cyan;
+}
+
+.player, .computer{
+    height: 100%;
+    width: 40%;
+    margin: 3px;
+}
+
+.player img{
+    height: 90%;
+    width: 100%;
+}
+
+.computer img{
+    height: 90%;
+    width: 100%;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+}
+
+.hidden{
+    display: none;
+}
+
+.score2{
+    color: rgb(78, 189, 78);
+    font-size: 3rem;
+}
